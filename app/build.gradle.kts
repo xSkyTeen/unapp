@@ -91,6 +91,7 @@ dependencies {
     implementation(libs.gson)
     implementation(libs.jsoup)
     implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.osmdroid.android)
 
     testImplementation(libs.junit)
     testImplementation(libs.okhttp.mockwebserver)
