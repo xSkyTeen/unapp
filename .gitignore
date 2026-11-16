@@ -1,0 +1,25 @@
+# Gradle & Android build outputs
+.gradle/
+.kotlin/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# IDE & OS
+*.iml
+.idea/
+.DS_Store
+
+# Local environment & signing secrets
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# Agent skills & local tooling
+.agents/
+skills-lock.json

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="miku_pastel_primary">#4DB6AE</color>
+    <color name="miku_pastel_container">#CCF2EE</color>
+    <color name="miku_pastel_background">#F6FBFB</color>
+    <color name="miku_pastel_background_dark">#0F1A1B</color>
+    <color name="miku_pastel_ink">#162B2D</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

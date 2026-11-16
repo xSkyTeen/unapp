@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UnApp</string>
+    <string name="app_tagline">UNAP Puno</string>
+    <string name="notification_channel_tasks_id">unapp_academic_tasks</string>
+    <string name="notification_channel_tasks_name">Nuevas tareas y avisos</string>
+    <string name="notification_channel_tasks_desc">Alertas cuando se publiquen nuevas tareas o anuncios en el Aula Virtual.</string>
+</resources>

@@ -1,0 +1,15 @@
+# Retrofit & OkHttp
+-keepattributes Signature,InnerClasses,EnclosingMethod
+-keepattributes RuntimeVisibleAnnotations,RuntimeVisibleParameterAnnotations
+-keepclassmembers,allowshrinking,allowobfuscation interface * {
+    @retrofit2.http.* <methods>;
+}
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+-dontwarn javax.annotation.**
+
+# Gson DTOs
+-keep class sky.universidad.UnApp.data.remote.dto.** { *; }
+-keep class sky.universidad.UnApp.core.session.StoredCookieDto { *; }
+
+# Room entities
+-keep class sky.universidad.UnApp.data.local.entities.** { *; }
