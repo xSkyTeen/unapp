@@ -72,8 +72,8 @@ fun StudentProfileScreen(
 
     Column(modifier = Modifier.fillMaxSize()) {
         AppleStickyCurvedHeader(
-            title = "Mi perfil",
-            subtitle = null,
+            title = fullNameFormatted,
+            subtitle = "Mi perfil UNAP",
             onBack = onBack
         )
 

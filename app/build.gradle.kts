@@ -23,8 +23,8 @@ android {
         applicationId = "sky.universidad.UnApp"
         minSdk = 24
         targetSdk = 37
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
 
         buildConfigField("String", "APP_AUTHOR_SIGNATURE", "\"sky\"")
         buildConfigField("String", "UPDATE_FEED_URL", "\"https://api.github.com/repos/xSkyTeen/unapp/releases/latest\"")
